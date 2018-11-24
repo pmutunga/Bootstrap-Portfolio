@@ -1,97 +1,94 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Paskwa Mutunga Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="main.js"></script>
+	<title>Paskwa Mutunga Bootstrap</title>
+	<meta charset="utf-8"> 
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
+	<header> <!-- Top header-->
 
-<!-- Navbar -->
-<ul class="nav nav-pills justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Portfolio</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Contact</a>
-    </li>
-
-  </ul>
- 
+		<!--nav-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" id="logo" href="#">Paskwa</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     
-<div class = "container"> <!-- Content container -->
-    
-
-  <div class="row"> <!--Content row-->
-    <div class="col-lg-8"> <!-- Main-content section -->
-      <div class="page-header">
-          <h1>About Me</h1>
-        </div>
-      <div class="row">
-        <div class="col-3">
-            <img src="assets/images/2-PaskwaM3.png" alt="Paskwa Portrait" class="img-thumbnail">
-
-        </div>
-        <div class="col-9">
-          <p>I’m an Agile, Entrepreneurial, Christian, Electrical and Communications Engineer with over 15 years Innovation & IT strategy execution in global organizations in the for-profit and not-for-profit sectors.</p>
-          <p>Driven by a deep understanding of business needs, I mobilize teams in the delivery of technology solutions that are aligned with business goals.</p>
-
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        
       </div>
-      <div class="row">
-        <div class="col-4">
-          <p><strong>Specialities include:</strong></p>
-        </div>
-        <div class="col-8">
-            <ul class="list-inline">
-                <li> Leadership and Team Development</li>
-                <li> Portfolio and Product Management </li>
-                <li> Project Management & Consulting</li>
-                <li> Business Systems Analysis </li>
-                <li> Agile & Lean-startup Execution</li>
-                <li> Training and Facilitation</li>
-                <li> HTML5 & CSS4</li>
-            </ul>          
+    </nav>
 
-        </div>
-      </div>
-    
+	<div class="container"> <!--Content container-->
+		<div class="row"> <!--Main content row-->
+			<div class="col-lg-8 col-md"> <!--Large Content column-->
+				
+					<div class="row"> <!--About us -->
+						<div class = "col-sm"> <h1>About me</h1></div>
+					</div> <!--About us -->
+					
+					<div class="row"><!--Thumbnail and summary-->
+						<div class="col-sm-3"> <!--Thumbnail-->
+							<img src="http://thebabookofmentors.com/wp-content/uploads/2015/03/Mutunga.png" class="img-thumbnail" alt="Paskwa Portrait">
+						</div><!--Thumbnail-->
+						
+						<div class="col-sm-9"> <!--Summary-->
+							<p>I’m an Agile, Entrepreneurial, Christian, Electrical and Communications Engineer with over 15 years Innovation & IT strategy execution in global organizations in the for-profit and not-for-profit sectors.</p>
+							<p>Driven by a deep understanding of business needs, I mobilize teams in the delivery of technology solutions that are aligned with business goals.</p>
 
-  </div>
-  <div class="col-md-4"> <!-- Sidebar -->
-    <div class="card mt-2">
-        <div class="card-body">
-          <h5 class="card-title">Connect with me!</h5>
-              <p class="card-text"></p>
-            
-          </div>
-      </div>
+						</div><!--Summary-->
+						
+					</div> <!--Thumbnail and summary-->
+					
+					<div class="row"> <!--Skills-->
+						<div class="col">
+						<p><strong>Specialities include:</strong></p>
+						<ul>
+								<li>Leadership and Team Development</li>
+								<li> Portfolio and Product Management</li>
+								<li> Project Management & Consulting</li>
+								<li>Business Systems Analysis</li>
+								<li>Agile & Lean-startup Execution</li>
+								<li>Training and Facilitation</li>
+								<li>HTML5 & CSS4</li>			
+						</ul>
+						</div>
+					</div> <!--Skills-->
+			</div><!--Large Content column-->
+			
+			<div class="col-lg-4 col-md"> <!--Sidebar-->
+				<div class="card"> 
+  					<div class="card-body">
+						 <h4 class="card-title">Connect with me</h4>
+						 <p class="card-text">Some example text. Some example text.</p>
+             <a href="https://twitter.com/PaskwaMutunga" class="fa fa-twitter"></a>
+             <a href="https://www.linkedin.com/in/paskwa/" class="fa fa-linkedin"></a>
+             <a href="https://github.com/pmutunga" class="fa fa-github" ></a>
+					</div>
+				</div>
+			</div><!--Small content column-->
+		</div> <!--Main content row-->
+	
+	</div> <!--Content container-->
 
-  </div>
-</div> <!--End of content row-->
-</div> <!--End of container-->
-
-    <!-- Footer -->
-
-<!-- Footer -->
-<footer class="page-footer font-small blue">
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  
-  </footer>
-  <!-- Footer -->
-
+    <footer class="myfooter">
+                &copy;copyright Paskwa Mutunga
+       </footer>
 </body>
-
 </html>
