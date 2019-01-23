@@ -1,7 +1,21 @@
+body {
+    box-sizing: border-box;
+}
+
 .work {
     float: left;
 }
 
 #contact {
     clear:both;
+}
+
+.port-card {
+    margin-bottom: 10px;
+  }
+
+
+
+#clearfix{
+    clear: both;
 }
