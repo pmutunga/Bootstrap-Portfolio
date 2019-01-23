@@ -19,3 +19,9 @@ body {
 #clearfix{
     clear: both;
 }
+
+.gitlink a {
+    color: navy;
+    text-decoration-line: underline;
+    
+}
